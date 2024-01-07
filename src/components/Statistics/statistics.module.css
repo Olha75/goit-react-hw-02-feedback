@@ -12,19 +12,19 @@
 }
 
 .itemTitle {
-  font-size: 25px;
+  font-size: 35px;
   color: rgb(250, 248, 248);
 }
 
 .list {
 }
 
-.item {
+/* .item {
   font-size: 16px;
   color: blue;
   border-radius: 10px;
   background-color: antiquewhite;
-}
+} */
 
 .listButton {
   gap: 30px;
@@ -36,13 +36,29 @@
   border: 1px solid blueviolet;
   border-radius: 5px;
   padding: 5px;
-  width: 60px;
+  width: 100px;
   transition: background-color 0.3s, color 0.3s;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 139, 0.2);
+  font-size: 20px;
 }
 
 .button:hover {
   border: 1px solid #ffffff;
   background-color: blueviolet;
   color: #ffffff;
+}
+
+.statisticsTitle {
+  font-size: 25px;
+  color: rgb(250, 248, 248);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.listStatistics {
+  font-size: 16px;
+  color: blue;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding: 5px 10px;
 }
