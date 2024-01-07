@@ -1,4 +1,4 @@
-import { Component } from 'react';
+// import { Component } from 'react';
 import Statistics from './Statistics/Statistics';
 
 export const App = () => {
