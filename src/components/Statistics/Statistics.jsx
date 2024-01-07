@@ -8,11 +8,26 @@ class Statistics extends Component {
     neutral: 0,
     bad: 0,
   };
-  // static defaultProps = {};
-  // static propTypes = {};
+
+  countTotalFeedback() {
+    const { good, neutral, bad } = this.state;
+    const total = good + neutral + bad;
+    return total;
+  }
+
+  countPositiveFeedbackPercentage() {
+    const { good } = this.state;
+    const total = this.countTotalFeedback();
+
+    const percent = (good / total) * 100;
+    return percent;
+  }
 
   render() {
-    const { good, neutral, bad } = this.props;
+    const { good, neutral, bad } = this.state;
+    const total = this.countTotalFeedback;
+    const percent = this.countPositiveFeedbackPercentage(good);
+
     return (
       <div className={css.wrapper}>
         <h1 className={css.title}>кафе Expresso</h1>
@@ -35,8 +50,8 @@ class Statistics extends Component {
           <li>Good: {good}</li>
           <li>Neutral: {neutral}</li>
           <li>Bad: {bad}</li>
-          <li></li>
-          <li></li>
+          <li>Total:{total}</li>
+          <li>Percent:{percent}</li>
         </ul>
       </div>
     );
