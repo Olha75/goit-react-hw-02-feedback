@@ -1,14 +1,18 @@
 .wrapper {
+  background-color: rgb(181, 177, 177);
+  padding: 30px;
+  border-radius: 15px;
 }
 
 .title {
   font-size: 40px;
   color: blueviolet;
+  text-align: center;
 }
 
 .itemTitle {
   font-size: 25px;
-  color: rgb(86, 76, 76);
+  color: rgb(250, 248, 248);
 }
 
 .list {
@@ -19,4 +23,9 @@
   color: blue;
   border-radius: 10px;
   background-color: antiquewhite;
+}
+
+.button {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
 }

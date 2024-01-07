@@ -11,10 +11,12 @@ class Statistics extends Component {
     return (
       <div className={css.wrapper}>
         <h1 className={css.title}>кафе Expresso</h1>
-        <p className={css.itemTitle}>Чи подобається Вам наше кафе?</p>
-        <button>good</button>
-        <button>neutral</button>
-        <button>bad</button>
+        <p className={css.itemTitle}>
+          <b>Чи подобається Вам наше кафе?</b>
+        </p>
+        <button className={css.button}>good</button>
+        <button className={css.button}>neutral</button>
+        <button className={css.button}>bad</button>
       </div>
     );
   }
