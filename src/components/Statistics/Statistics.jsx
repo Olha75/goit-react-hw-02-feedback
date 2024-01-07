@@ -14,9 +14,17 @@ class Statistics extends Component {
         <p className={css.itemTitle}>
           <b>Чи подобається Вам наше кафе?</b>
         </p>
-        <button className={css.button}>good</button>
-        <button className={css.button}>neutral</button>
-        <button className={css.button}>bad</button>
+        <ul className={css.listButton}>
+          <li>
+            <button className={css.button}>good</button>
+          </li>
+          <li>
+            <button className={css.button}>neutral</button>
+          </li>
+          <li>
+            <button className={css.button}>bad</button>
+          </li>
+        </ul>
       </div>
     );
   }

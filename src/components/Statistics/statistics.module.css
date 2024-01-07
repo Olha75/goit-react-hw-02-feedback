@@ -2,6 +2,7 @@
   background-color: rgb(181, 177, 177);
   padding: 30px;
   border-radius: 15px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 139, 0.2);
 }
 
 .title {
@@ -25,7 +26,23 @@
   background-color: antiquewhite;
 }
 
+.listButton {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   border: 1px solid blueviolet;
   border-radius: 5px;
+  padding: 5px;
+  width: 60px;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 139, 0.2);
+}
+
+.button:hover {
+  border: 1px solid #ffffff;
+  background-color: blueviolet;
+  color: #ffffff;
 }
