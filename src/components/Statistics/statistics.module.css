@@ -1,0 +1,22 @@
+.wrapper {
+}
+
+.title {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+.itemTitle {
+  font-size: 25px;
+  color: rgb(86, 76, 76);
+}
+
+.list {
+}
+
+.item {
+  font-size: 16px;
+  color: blue;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
