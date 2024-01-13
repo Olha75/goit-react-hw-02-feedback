@@ -1,8 +1,5 @@
 import css from './section.module.css';
 
-import { FeedbackOptions } from '../FeedbackOptions/FeedbackOptions';
-import { Statistics } from '../Statistics/Statistics';
-
 const Section = ({ title, children }) => {
   return (
     <section>
