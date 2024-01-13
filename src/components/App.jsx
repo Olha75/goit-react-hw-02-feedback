@@ -50,8 +50,7 @@ class App extends Component {
         }}
       >
         <div className="wrapper">
-          {/* <h1 className={css.title}>кафе Expresso</h1> */}
-
+          <h1 className="title">cafe Expresso</h1>
           <Section title={'Please leave feedback'}>
             <FeedbackOptions
               options={Object.keys(state)}

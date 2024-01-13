@@ -37,7 +37,7 @@ code {
 
 .wrapper {
   background-color: rgb(181, 177, 177);
-  padding: 30px;
+  padding: 30px 50px;
   border-radius: 15px;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 139, 0.2);
 }
